@@ -5,7 +5,7 @@ Example notebooks that take ECCOv4 generated adjoint sensitivity fields (see [Fo
 
 Examples include convolving with ECCOv4 surface forcing standard deviation fields and inter-model standard deviations of surface fields from CMIP models (generated as in the [CMIP_ranges](https://github.com/emmomp/cmip_ranges) notebooks) 
 
-The convolve_examples notebook loads ECCOv4 sstandard deviations, CMIP5 and CMIP6 intermodel standard deviations of various forcing fields, convolves them with adjoint sensitivities[^1], and makes some example plots.
+The convolve_examples notebook loads ECCOv4 standard deviations, CMIP5 and CMIP6 intermodel standard deviations of various surface fields, convolves them with adjoint sensitivities[^1], and makes some example plots.
 
 I recommend using the convolve_examples notebook as a starting point for generating and testing your own scripts that can be submitted to JASMIN's analysis machines.
 
