@@ -7,6 +7,8 @@ Examples include convolving with ECCOv4 surface forcing standard deviation field
 
 The convolve_examples notebook loads ECCOv4 sstandard deviations, CMIP5 and CMIP6 intermodel standard deviations of various forcing fields, convolves them with adjoint sensitivities[^1], and makes some example plots.
 
+I recommend using the convolve_examples notebook as a starting point for generating and testing your own scripts that can be submitted to JASMIN's analysis machines.
+
 Requires the ecco_v4_py library to read/plot ECCO data on the LLC grid, available here: https://github.com/ECCO-GROUP/ECCOv4-py/
 
 [^1]: Held in the JASMIN ORCHESTRA workspace - see [here](https://help.jasmin.ac.uk/article/199-introduction-to-group-workspaces) for details of requesting access
